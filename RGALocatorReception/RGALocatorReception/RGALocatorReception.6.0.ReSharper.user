@@ -1,0 +1,36 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:App.xaml.cs" caret="760" fromTop="16" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/d:Properties/f:AppManifest.xml" caret="0" fromTop="0" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml" caret="449" fromTop="8" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="3599" fromTop="78" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml" caret="493" fromTop="9" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml" caret="522" fromTop="11" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="3436" fromTop="19" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="1782" fromTop="0" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="1339" fromTop="0" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="3088" fromTop="26" />
+      <File id="6DF7383C-66A3-430D-8EB5-F5073D03305C/f:MainPage.xaml.cs" caret="1472" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

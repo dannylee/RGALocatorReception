@@ -1,0 +1,33 @@
+﻿<navigation:Page x:Class="RGALocatorReception.ColleagueDetails" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           Title="ColleagueDetails Page"
+           d:DesignHeight="768" d:DesignWidth="1024">
+    <Grid x:Name="LayoutRoot" Background="White" Margin="50">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="540"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Background="#cc0000" Height="180" Width="180">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <Image Source="/Images/ICN_calendar.png" Height="50" Width="50" Margin="5 55 30 0"/>
+                <TextBlock Text="00" x:Name="txtDay" Foreground="White" FontSize="60" Padding="0 40 0 0"/>
+            </StackPanel>
+            <TextBlock Text="January 2011" FontSize="20" Foreground="White" Padding="10 15"/>
+            
+        </StackPanel>
+        <Image Grid.Row="0" Grid.Column="1" Source="{Binding PhotoURL}" Height="180" Width="180"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Name" Foreground="Black" FontSize="50"></TextBlock>
+    </Grid>
+</navigation:Page>
